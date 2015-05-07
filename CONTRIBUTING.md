@@ -1,18 +1,18 @@
-# Contributing to HTML5 Boilerplate
+# Contributing to MMI Studios
 
-♥ [HTML5 Boilerplate](http://html5boilerplate.com) and want to get involved?
-Thanks! There are plenty of ways you can help!
+Diggin [MMI Studios](http://www.mmi-studios.com)? Want to get involved?
+Thanks! There are plenty of ways you can contribute!
 
 Please take a moment to review this document in order to make the contribution
 process easy and effective for everyone involved.
 
-Following these guidelines helps to communicate that you respect the time of
-the developers managing and developing this open source project. In return,
-they should reciprocate that respect in addressing your issue or assessing
-patches and features.
+For technical contributions relating to the source code retrieved from the repository or server, please read the following first section. 
 
+If you wish to contribute in other, non-technical manners regarding business operations, copy, design, promotion, or in any other way, please skip to the second section.
 
-## Using the issue tracker
+## Section 1: Technical 
+
+### Using the issue tracker
 
 The [issue tracker](https://github.com/h5bp/html5-boilerplate/issues) is
 the preferred channel for [bug reports](#bugs), [features requests](#features)
