@@ -70,29 +70,29 @@
         <h1 class="error-msg"><?php if(isset($message)) { echo $message; } ?></h1>
         <ul class="nav nav-pills nav-justified" role="pilllist">
             <li role="presentation" class="active">
-                <a href="#latest" aria-controls="latest" role="pill" data-toggle="pill">Latest</a>
+                <a href="#latest" aria-controls="latest" role="pill" data-toggle="pill" title="The latest products MMI Studios has to offer.">Latest</a>
             </li>
             <li role="presentation">
-                <a href="#music" aria-controls="music" role="pill" data-toggle="pill">Music</a>
+                <a href="#music" aria-controls="music" role="pill" data-toggle="pill" title="All audio releases from MMI Studios artists.">Music</a>
             </li>
             <li role="presentation">
-                <a href="#sample-kits" aria-controls="sample-kits" role="pill" data-toggle="pill">Sample Kits</a>
+                <a href="#sample-kits" aria-controls="sample-kits" role="pill" data-toggle="pill" title="Audio samples to use in your sound design and music projects.">Samples</a>
             </li>
             <li role="presentation">
-                <a href="#preset-banks" aria-controls="preset-banks" role="pill" data-toggle="pill">Preset Banks</a>
+                <a href="#preset-banks" aria-controls="preset-banks" role="pill" data-toggle="pill" title="Preset packs for various software synths and effects">Presets</a>
             </li>
             <li role="presentation" class="dropdown">
-                <a href="#" class="dropdown-toggle" aria-controls="software" data-toggle="dropdown" role="button" aria-expanded="false">Software <span class="caret"></span></a>
+                <a href="#" class="dropdown-toggle" aria-controls="software" data-toggle="dropdown" role="button" aria-expanded="false" title="Software synthesizers and effects from MMI Studios">Software <span class="caret"></span></a>
                 <ul class="dropdown-menu" role="menu">
-                    <li><a href="#sound-generators" aria-controls="sound-generators" role="pill" data-toggle="pill">Sound Generators</a></li>
-                    <li><a href="#sound-effectors" aria-controls="sound-effectors" role="pill" data-toggle="pill">Sound Effectors</a></li>
+                    <li><a href="#sound-generators" aria-controls="sound-generators" role="pill" data-toggle="pill" title="Software synths">Sound Generators</a></li>
+                    <li><a href="#sound-effectors" aria-controls="sound-effectors" role="pill" data-toggle="pill" title="Software effects">Sound Effectors</a></li>
                 </ul>
             </li>
             <li role="presentation">
-                <a href="#apparel" aria-controls="apparel" role="pill" data-toggle="pill">Graphic Assets</a>
+                <a href="#apparel" aria-controls="apparel" role="pill" data-toggle="pill" title="Graphic assets to use in your 3D, design, and illustration projects.">Graphix</a>
             </li>
             <li role="presentation">
-                <a href="#misc" aria-controls="misc" role="pill" data-toggle="pill">Merch</a>
+                <a href="#misc" aria-controls="misc" role="pill" data-toggle="pill" title="Clothing and other various apparel from MMI Studios and MMI Studios artists">Merch</a>
             </li>
         </ul>
         <hr>

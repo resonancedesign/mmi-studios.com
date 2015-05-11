@@ -5,6 +5,7 @@
 *   Styling edits to product anchor and heading elements for product slider and products page (css/custom.css)
 *   Changed classes used by anchor elements in product slider module (app/modules/product-slider.php)
 *   Changed classes used by anchor elements in prducts page (app/includes/general/products.php)
+*   Added title attributes to all menu items of products page (app/includes/general/products.php)
 *   Updates to documentation (humans.txt, LICENSE.md, CONTRIBUTING.md)
 
 ### 0.0.4 (May 4th, 2015)
