@@ -17,19 +17,19 @@
         $third_party = $row["third_party"];
         $productsSlider .='
             <li>
-                <div class="products-side">
-                    <a href="javascript:RequestContent(' . $content . ')" class="product-button">
+                <div classid="product-slider">
+                    <a href="javascript:RequestContent(' . $content . ')" class="mmi-title">
                         <img src="imgs/albums/' . $img . '" alt="' . $title . '" class="img-responsive img-thumbnail center-block product-side">
                     </a>
-                    <a href="javascript:RequestContent(' . $artist_page . ')" class="product-button">
-                        <h5 class="product-items">' . $artist . '</h5>
+                    <a href="javascript:RequestContent(' . $artist_page . ')" class="product-title">
+                        <h5>' . $artist . '</h5>
                     </a>
                     <a href="javascript:RequestContent(' . $content . ')" class="product-title">
-                        <h5>' . $title . '</h5>
+                        <h5 class="product-items">' . $title . '</h5>
                     </a>
-                    <a href="index.php?page=products&action=add&id=' . $id . '" class="btn btn-mmi btn-block pull-right">Add To Cart - $' . $price . ' (' . $category . ')</a>
-                    <h4 class="product-items text-center">Or Via 3rd Party:</h4>
-                    <p class="text-center" style="font-size: 1.1em;">' . $third_party . '</p>
+                    <a href="index.php?page=products&action=add&id=' . $id . '" class="btn btn-mmi center-block">Add To Cart - $' . $price . ' (' . $category . ')</a>
+                    <h4 class="product-items">Or Via 3rd Party:</h4>
+                    <p class="product-items">' . $third_party . '</p>
                 </div>
             </li>
         ';

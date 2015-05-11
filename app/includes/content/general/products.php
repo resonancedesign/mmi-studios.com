@@ -46,7 +46,9 @@
         $third_party = $row["third_party"];
         $musicDisplayList .='
             <div class="col-sm-4 product-item">
-                <img src="imgs/albums/' . $img . '" class="img-responsive img-thumbnail" alt="' . $title . '">
+                <a href="javascript:RequestContent(' . $content . ')" class="mmi-title">
+                    <img src="imgs/albums/' . $img . '" class="img-responsive img-thumbnail" alt="' . $title . '">
+                </a>
                 <a href="javascript:RequestContent(' . $artist_page . ')" class="product-title">
                     <h5>' . $artist . '</h5>
                 </a>
