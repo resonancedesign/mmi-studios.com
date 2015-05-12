@@ -4,13 +4,19 @@
 
 *   Styling edits to product anchor and heading elements for product slider and products page (css/custom.css)
 *   Changed classes used by anchor elements in product slider module (app/modules/product-slider.php)
-*   Changed classes used by anchor elements in prducts page (app/includes/general/products.php)
-*   Added title attributes to all menu items of products page (app/includes/general/products.php)
+*   Changed classes used by anchor elements in prducts page (app/includes/content/general/products.php)
+*   Added title attributes to all menu items of products page (app/includes/content/general/products.php)
 *   Moved Google Analytics asynchronous tracking code to the header of offline page (off.html)
 *   Added PHP implementation of Google Analytics asynchronous tracking code to index page (index.php)
 *   Created Google Analytics PHP implementation file (js/analyticstracking.php)
+*   Moved error messages underneath products navigation (app/includes/content/general/products.php)
+*   Removed old database connection script from products page (app/includes/content/general/products.php)
 *   Commented out the Filament app in javasctrips include (app/includes/content/data/javascripts.php)
 NOTE: Not sure we want to use this 3rd party app yet.
+*   Added dynamic "latest" section to and edited text content of the products page (app/includes/content/general/products.php)
+*   Slight edit to text content of "about" page (app/includes/content/general/about.php)
+*   Added "contact" menu item to footer menu (app/includes/layout/footer.php)
+*   Created "contact" page (app/includes/content/general/contact.php)
 *   Updates to documentation (humans.txt, LICENSE.md, CONTRIBUTING.md)
 
 ### 0.0.4 (May 4th, 2015)

@@ -3,10 +3,6 @@
     mysql_connect("localhost","mmistudioscom","DrJ0n3s1!") or die(mysql_error());
     mysql_select_db("mmistudioscom") or die(mysql_error());
 
-    // Live connection (uncomment when deploying to live server)
-    /*mysql_connect("68.178.143.153","mmistudioscom","DrJ0n3s1!") or die(mysql_error());
-    mysql_select_db("mmistudioscom") or die(mysql_error());*/
-
     ///////////////////////////
     //  ADD PRODUCT TO CART  //
     ///////////////////////////
@@ -27,11 +23,47 @@
         }
     }
 
+    //////////////////////
+    //  LATEST DISPLAY  //
+    //////////////////////
+    $sqlTalks = mysql_query("SELECT * FROM mmi_products WHERE featured = 'yes' ORDER BY id DESC");
+    $latestDisplayList = ""; // Initialize the variable to display the list of latest products
+    while($row = mysql_fetch_array($sqlTalks)){
+        $id = $row["id"];
+        $category = $row["category"];
+        $artist = $row["artist"];
+        $artist_page = $row["artist_page"];
+        $title = $row["title"];
+        $cat_num = $row["cat_num"];
+        $description = $row["description"];
+        $img = $row["img"];
+        $content = $row["content"];
+        $price = $row["price"];
+        $third_party = $row["third_party"];
+        $featured = $row["featured"];
+        $latestDisplayList .='
+            <div class="col-sm-4 product-item">
+                <a href="javascript:RequestContent(' . $content . ')" class="mmi-title">
+                    <img src="imgs/albums/' . $img . '" class="img-responsive img-thumbnail" alt="' . $title . '">
+                </a>
+                <a href="javascript:RequestContent(' . $artist_page . ')" class="product-title">
+                    <h5>' . $artist . '</h5>
+                </a>
+                <a href="javascript:RequestContent(' . $content . ')" class="product-title">
+                    <h5 class="product-items">' . $title . '</h5>
+                </a>
+                <a href="index.php?page=products&action=add&id=' . $id . '" class="btn btn-mmi center-block">Add To Cart - $' . $price . ' (' . $category . ')</a>
+                <h4 class="product-items">Or Via 3rd Party:</h4>
+                <p class="product-items">' . $third_party . '</p>
+            </div>
+        ';
+    }
+
     /////////////////////
     //  MUSIC DISPLAY  //
     /////////////////////
     $sqlTalks = mysql_query("SELECT * FROM mmi_products WHERE category = 'CD' ORDER BY id DESC");
-    $musicDisplayList = ""; // Initialize the variable to display the list of products
+    $musicDisplayList = ""; // Initialize the variable to display the list of music products
     while($row = mysql_fetch_array($sqlTalks)){
         $id = $row["id"];
         $category = $row["category"];
@@ -67,7 +99,6 @@
 <div class="row" id="products-page" role="pillpanel">
     <!-- Nav tabs -->
     <div class="col-sm-12">
-        <h1 class="error-msg"><?php if(isset($message)) { echo $message; } ?></h1>
         <ul class="nav nav-pills nav-justified" role="pilllist">
             <li role="presentation" class="active">
                 <a href="#latest" aria-controls="latest" role="pill" data-toggle="pill" title="The latest products MMI Studios has to offer.">Latest</a>
@@ -96,14 +127,16 @@
             </li>
         </ul>
         <hr>
+        <h1 class="error-msg"><?php if(isset($message)) { echo $message; } ?></h1>
     </div>
     <!-- Tab panes -->
     <div class="col-sm-12 tab-content">
         <div role="pillpanel" class="tab-pane fade in active" id="latest">
-            Latest...
+            <p>Shipping is included in price of CD's and all orders are sent USPS First Class if within the United States. Unforunately, for all international orders we must add an additional $9.13 USPS First Class International shipping fee.</p>
+            <?php print "$latestDisplayList"; ?>
         </div>
         <div role="pillpanel" class="tab-pane fade" id="music">
-            <p>Shipping is included in price and all orders are sent USPS First Class if within the United States. Unforunately, for all international orders we must add an additional $9.13 USPS First Class International shipping fee.</p>
+            <p>Shipping is included in price of CD's and all orders are sent USPS First Class if within the United States. Unforunately, for all international orders we must add an additional $9.13 USPS First Class International shipping fee.</p>
             <?php print "$musicDisplayList"; ?>
         </div>
         <div role="pillpanel" class="tab-pane fade" id="apparel">

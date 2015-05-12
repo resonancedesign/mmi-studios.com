@@ -11,7 +11,8 @@
                     <!-- <a href="javascript:RequestContent('app/includes/content/general/media.php','content-swapper')" class="footer-button" id="footer-media">Media</a> | -->
                     <a href="javascript:RequestContent('app/includes/content/general/community.php','content-swapper')" class="footer-button" id="footer-community">Community</a> | 
                     <a href="javascript:RequestContent('app/includes/content/general/classifieds.php','content-swapper')" class="footer-button" id="footer-classifieds">Classifieds</a> | 
-                    <a href="javascript:RequestContent('app/includes/content/general/about.php','content-swapper')" class="footer-button" id="footer-about">About</a>
+                    <a href="javascript:RequestContent('app/includes/content/general/about.php','content-swapper')" class="footer-button" id="footer-about">About</a> |
+                    <a href="javascript:RequestContent('app/includes/content/general/contact.php','content-swapper')" class="footer-button" id="footer-contact">Contact</a>
                 </div>
             </div>
             <div class="col-md-12">

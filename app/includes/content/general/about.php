@@ -4,7 +4,7 @@
   		<h2>Who We Are</h2>
   		<p>We are artists, creators, thinkers, and doers... We are musicians, painters, programmers, and poets... We are the creators of the culture that surrounds you, we are the artistic voice behind a generation, and we are not going anywhere...</p>
   		<p>MMI Studios is by artists and for artists...</p>
-  		<p>A careful cultivation and a continual nurturing of an idea originating from the over-active brain of Richard Bakos (aka Riki Rezinunts) which has merged with the creative forces of others who has crossed his path, snowballing into the online community you're at now.</p>
+  		<p>A careful cultivation and a continual nurturing of an idea originating from the over-active brain of Richard Bakos (aka Riki Rezinunts) which has merged with the creative forces of others who have crossed his path, snowballing into the online community you're at now.</p>
   		<h2>What We Do</h2>
   		<p>We blur the lines, use the angles, stay ahead of the curve, and adjust the contrast... We conceive, connect, collaborate, and contribute...</p>
   		<p>We offer an exclusive community dedicated to connecting creative professionals with other creative professionals in order to see each others ideas come to fruition...</p>
