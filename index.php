@@ -42,6 +42,7 @@
             <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <?php include_once("js/analyticstracking.php") ?>
     </head>
     <body>
         <!--[if lt IE 7]>
