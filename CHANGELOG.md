@@ -1,5 +1,10 @@
 ### HEAD
 
+### 0.0.6 (May 18th, 2015)
+
+*   Embeded spreadshirt store into merch section of product page (app/includes/content/general/products.php)
+    TODO: Make the integration responsive to the design
+
 ### 0.0.5 (May 11th, 2015)
 
 *   Styling edits to product anchor and heading elements for product slider and products page (css/custom.css)
