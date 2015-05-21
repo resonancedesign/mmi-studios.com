@@ -3,8 +3,12 @@
 ### 0.0.7 (May 20th, 2015)
 
 *   Made spreadshirt integration responsive
-    - (app/includes/content/general/products.php)
-    - (css/custom.css)
+        - (app/includes/content/general/products.php)
+        - (css/custom.css)
+*   Additional styling for anchors and headers on products page and products-slider module
+        - (app/includes/content/general/products.php)
+        - (app/modules/product-slider.php)
+        - (css/custom.css)
 
 ### 0.0.6 (May 18th, 2015)
 

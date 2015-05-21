@@ -53,7 +53,7 @@
                     <h5 class="product-items">' . $title . '</h5>
                 </a>
                 <a href="index.php?page=products&action=add&id=' . $id . '" class="btn btn-mmi center-block">Add To Cart - $' . $price . ' (' . $category . ')</a>
-                <h4 class="product-items">Or Via 3rd Party:</h4>
+                <h4 class="product-items third-party">Or Via 3rd Party:</h4>
                 <p class="product-items">' . $third_party . '</p>
             </div>
         ';
@@ -88,7 +88,7 @@
                     <h5 class="product-items">' . $title . '</h5>
                 </a>
                 <a href="index.php?page=products&action=add&id=' . $id . '" class="btn btn-mmi center-block">Add To Cart - $' . $price . ' (' . $category . ')</a>
-                <h4 class="product-items">Or Via 3rd Party:</h4>
+                <h4 class="product-items third-party">Or Via 3rd Party:</h4>
                 <p class="product-items">' . $third_party . '</p>
             </div>
         ';
