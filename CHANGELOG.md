@@ -1,5 +1,11 @@
 ### HEAD
 
+### 0.0.7 (May 20th, 2015)
+
+*   Made spreadshirt integration responsive
+    - (app/includes/content/general/products.php)
+    - (css/custom.css)
+
 ### 0.0.6 (May 18th, 2015)
 
 *   Embeded spreadshirt store into merch section of product page (app/includes/content/general/products.php)

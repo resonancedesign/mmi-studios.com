@@ -411,9 +411,23 @@ a:hover.product-title,
     font-size: 0.9em;
 }
 
- {
-    font-size: 0.9em;
+.spreadshirt-container {
+    margin: -20px 0;
+    position: relative;
+    padding-bottom: 75%;
+    padding-top: 35px;
+    height: 0;
+    overflow: hidden;
 }
+
+#Spreadshop {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 /***************** 
  * /main content *
  *****************/ 

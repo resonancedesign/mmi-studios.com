@@ -155,7 +155,11 @@
             Sound Effectors...
         </div>
         <div role="pillpanel" class="tab-pane fade" id="misc">
-            <iframe height="1800" width="100%" src="http://mmi-studios-embed.spreadshirt.com/" name="Spreadshop" id="Spreadshop" frameborder="0" onload="window.scrollTo(0, 0);" style="margin-top: -20px;"></iframe>The products in this online shop are created by <a href="http://www.spreadshirt.com">Spreadshirt</a>, your source for custom tees, aprons and other accessories.
+            <div class="spreadshirt-container">
+                <iframe width="100%" src="http://mmi-studios-embed.spreadshirt.com/" name="Spreadshop" id="Spreadshop" frameborder="0" onload="window.scrollTo(0, 0);" scrolling="yes"></iframe>
+            </div>
+            <hr>
+            <p>The products in this online shop are created by <a href="http://www.spreadshirt.com">Spreadshirt</a>, your source for custom tees, aprons and other accessories.</p>
         </div>
     </div>
 </div>
