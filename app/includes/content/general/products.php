@@ -120,7 +120,7 @@
                 </ul>
             </li>
             <li role="presentation">
-                <a href="#apparel" aria-controls="apparel" role="pill" data-toggle="pill" title="Graphic assets to use in your 3D, design, and illustration projects.">Graphix</a>
+                <a href="#graphics" aria-controls="graphics" role="pill" data-toggle="pill" title="Graphic assets to use in your 3D, design, and illustration projects.">Graphix</a>
             </li>
             <li role="presentation">
                 <a href="#misc" aria-controls="misc" role="pill" data-toggle="pill" title="Clothing and other various apparel from MMI Studios and MMI Studios artists">Merch</a>
@@ -133,17 +133,43 @@
     <div class="col-sm-12 tab-content">
         <div role="pillpanel" class="tab-pane fade in active" id="latest">
             <p>Shipping is included in price of CD's and all orders are sent USPS First Class if within the United States. Unforunately, for all international orders we must add an additional $9.13 USPS First Class International shipping fee.</p>
+            <div class="col-sm-4 product-item">
+                <a href="#" class="mmi-title">
+                    <img src="http://placehold.it/400x400" class="img-responsive img-thumbnail" alt="Retro Dark">
+                </a>
+                <a href="#" class="product-title">
+                    <h5>MMI Studios</h5>
+                </a>
+                <a href="#" class="product-title">
+                    <h5 class="product-items">Retro Dark</h5>
+                </a>
+                <a href="#" class="btn btn-mmi center-block">Add To Cart - $9.99 (Sample Kit)</a>
+            </div>
             <?php print "$latestDisplayList"; ?>
         </div>
         <div role="pillpanel" class="tab-pane fade" id="music">
             <p>Shipping is included in price of CD's and all orders are sent USPS First Class if within the United States. Unforunately, for all international orders we must add an additional $9.13 USPS First Class International shipping fee.</p>
             <?php print "$musicDisplayList"; ?>
         </div>
-        <div role="pillpanel" class="tab-pane fade" id="apparel">
-            Apparel...
-        </div>
         <div role="pillpanel" class="tab-pane fade" id="sample-kits">
-            Sample Kits...
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="samples-holder col-sm-4">
+                        <img src="http://placehold.it/400x400" class="img-responsive img-thumbnail" alt="">
+                    </div>
+                    <div class="col-sm-8">
+                        <h2 style="margin-top: 0;">Retro Dark</h2>
+                        <p>A collection of 100 retro sounding loop samples with a cold, dark electronic vibe. Created using equipment and software with a retro feel such the C64, Impulse Tracker, Roland Juno-6, and many more.</p>
+                        <h3>Specifications:</h3>
+                        <ul>
+                            <li>Format: 32Bit/44.1Khz Wave</li>
+                            <li>Royalty/License Free</li>
+                            <li>File names include BPM and Type (percussion, sfx, synth, etc)</li>
+                        </ul>
+                        <a href="#" class="btn btn-mmi center-block">Add To Cart - $9.99 (Download)</a>
+                    </div>
+                </div>
+            </div>
         </div>
         <div role="pillpanel" class="tab-pane fade" id="preset-banks">
             Preset Banks...
@@ -153,6 +179,9 @@
         </div>
         <div role="pillpanel" class="tab-pane fade" id="sound-effectors">
             Sound Effectors...
+        </div>
+        <div role="pillpanel" class="tab-pane fade" id="graphics">
+            Graphic Assets...
         </div>
         <div role="pillpanel" class="tab-pane fade" id="misc">
             <div class="spreadshirt-container">

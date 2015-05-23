@@ -133,6 +133,7 @@ hr {
 
 .label-mmi {
     margin: 2px;
+    line-height: 2em;
 }
 
 .visible-content {
@@ -175,6 +176,7 @@ hr {
     -moz-transition: all .25s linear;
     -webkit-transition: all .25s linear;
     -o-transition: all .25s linear;
+    white-space: normal;
 }
 
 .btn-default {

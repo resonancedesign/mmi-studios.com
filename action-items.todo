@@ -2,6 +2,7 @@ Front End:
  ☐ Engineer basic theming structure and guidelines/rules.
  ☐ Map file structure and required assets for theme building.
  ☐ Finish all initial theme styling issues.
+ ✔ Make text inside "Add To Cart" button stack vertically when button is sized to small to contain all text on one line. @done (15-05-22 20:41)
 
 Back End:
  ☐ Develop installation procedure for themes.
@@ -10,6 +11,7 @@ Back End:
  ☐ Develop installation prodedure for modules.
  ☐ Build module management system in administration area.
  ☐ Create adverts module.
+ ☐ Make modifications to database to specify product types (Sample Kits, LP Release, EP Release, etc)
 
 General:
  ☐ Finish informational documents (README.md, LICENSE.md, etc)
