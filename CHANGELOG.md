@@ -1,8 +1,17 @@
 ### HEAD
 
+### 0.0.9 (July 23rd, 2015)
+*   Typo fixes, and edits to copy and meta data
+        - (index.html)
+        - (index.php)
+        - (app/includes/content/data/javascripts.php)
+        - (app/includes/content/general/about.php)
+*   Added icon font file
+        - (fonts/glyphicons-halflings-regular.woff2)
+
 ### 0.0.8 (May 22nd, 2015)
 
-*   Made  formating edits to changelog file for readability
+*   Made formating edits to changelog file for readability
         - (CHANGELOG.md)
 *   Increased line-height of labels to make for adequate spacing when labels stack on top of one another
         - (css/custom.css)

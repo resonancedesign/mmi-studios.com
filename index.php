@@ -25,7 +25,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="MMI Studios is a multimedia collective, a creative community, a net-label, and a staffing solution... Software, sample archives, tutorials, design assets, etc...">
+        <meta name="description" content="MMI Studios is a multi-media collective, an audio service provider, a creative community, a net-label, and a staffing solution for artists... Software, audio engineering, remixing, sample archives, tutorials, design assets, plug-in presets, etc...">
         <meta name="keywords" content="">
         <meta name="author" content="Richard Bakos">
         <meta name="generator" content="ResDes CMS V1" />
